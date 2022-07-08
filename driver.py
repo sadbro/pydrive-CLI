@@ -1,15 +1,4 @@
 
-'''
-with open(".env") as f:
-    data = f.readlines()
-
-vars = {}
-for line in data:
-
-    key, raw = line.split("=")
-    vars[key] = raw.strip()
-'''
-
 import io
 import shutil
 import os.path
